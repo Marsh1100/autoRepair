@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hz+9USwTgpfyocqDjqyxTtyoUfrqJ4dN0Mx/dkuvsTtGC1ZuP+dRw33SqifKR5ocrY7Q/S5EvwBT2EXjGN0wdw==",
+  "dgSpecHash": "NMzYu23drKiVRBWPYN8y1dJUEVb9A7JvQXUvDceMqo8d9CcQTnCo3phzClF5hoMPrCuAq6UJqmCYWiF+6ntc8A==",
   "success": true,
-  "projectFilePath": "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

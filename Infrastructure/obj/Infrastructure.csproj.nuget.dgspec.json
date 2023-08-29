@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
+    "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "d:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
-                "projectPath": "d:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj"
+              "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
+                "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj"
               }
             }
           }
