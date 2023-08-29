@@ -10,3 +10,15 @@ D:\Documents\Campus Programmer\autoRepair\Core\obj\Debug\net7.0\Core.dll
 D:\Documents\Campus Programmer\autoRepair\Core\obj\Debug\net7.0\refint\Core.dll
 D:\Documents\Campus Programmer\autoRepair\Core\obj\Debug\net7.0\Core.pdb
 D:\Documents\Campus Programmer\autoRepair\Core\obj\Debug\net7.0\ref\Core.dll
+c:\Users\APT01-60\Documents\mb\autoRepair\Core\bin\Debug\net7.0\Core.deps.json
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\bin\Debug\net7.0\Core.dll
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\bin\Debug\net7.0\Core.pdb
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.dll
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\Core.pdb
+c:\Users\APT01-60\Documents\mb\autoRepair\Core\obj\Debug\net7.0\ref\Core.dll

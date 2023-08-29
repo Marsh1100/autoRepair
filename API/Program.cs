@@ -1,9 +1,16 @@
+/*"ConnectionStrings": {
+    "DefaultConnection":"server=localhost;user=root;password= ;database =AutoRepairDBmb"
+  }*/ //Casita
+
+using System.Reflection;
 using API.Extension;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 //Configuracion cors
 builder.Services.ConfigureCors();
+//Configuración del servicio de AutoMapper
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 // Add services to the container.
 
 builder.Services.AddControllers();

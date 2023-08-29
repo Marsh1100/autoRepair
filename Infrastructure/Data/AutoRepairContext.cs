@@ -15,6 +15,11 @@ public class AutoRepairContext : DbContext
     public DbSet<Customer> Customers {get; set;}
     public DbSet<Employee> Employees {get; set;}
 
+    /*public Microsoft.AspNetCore.Mvc.ActionResult<IEnumerable<global::API.Dtos.PersonDto>> Map<T>(List<Person> people)
+    {
+        throw new NotImplementedException();
+    }*/
+
     //Sobrecarga que toma los modelos que se han definido en configuración
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
