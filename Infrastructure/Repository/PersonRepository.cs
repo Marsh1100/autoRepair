@@ -3,7 +3,6 @@ using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-
 namespace Infrastructure.Repository
 {
     public class PersonRepository : GenericRepository<Person>, IPerson
@@ -13,11 +12,6 @@ namespace Infrastructure.Repository
         public PersonRepository(AutoRepairContext context) : base(context)
         {
             this._context = context;
-        }
-
-    public Task ToListAsync()
-        {
-            throw new NotImplementedException();
         }
 
     public override async Task<IEnumerable<Person>> GetAllAsync()
@@ -35,6 +29,7 @@ namespace Infrastructure.Repository
             .Include(p => p.Employees)
             .FirstOrDefaultAsync(p => p.Id == id);
     }
+
     }
 
 }

@@ -32,9 +32,12 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         context.Dispose();
         
     }
-    public  Task<int> SaveAsync()
+    public async Task<int> SaveAsync()
     {
-        throw new NotImplementedException();
+       // throw new NotImplementedException();
+
+       //YS
+       return await context.SaveChangesAsync();
     }
     
 }

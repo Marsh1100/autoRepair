@@ -12,6 +12,7 @@ builder.Services.ConfigureCors();
 //Configuración del servicio de AutoMapper
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 // Add services to the container.
+builder.Services.AddAplicacionServices();//-----------------
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<AutoRepairContext>(optionsBuilder =>

@@ -1,5 +1,8 @@
 
 
+using Core.Interfaces;
+using Infrastructure.UnitOfWork;
+
 namespace API.Extension;
 
 public static class AplicationServiceExtension
@@ -11,5 +14,14 @@ public static class AplicationServiceExtension
                 builder.AllowAnyOrigin()  //Withorigin ("https://domini.com")
                 .AllowAnyMethod()          //WithMethods ("GET", "POST")
                 .AllowAnyHeader()); 
-        });      
+        });   
+
+    //Implementación de UniteOfService   
+
+    public static void AddAplicacionServices(this IServiceCollection services)
+        {
+            //services.AddScoped<IPais, PaisRepository>();
+            //services.AddScoped<IRegion, RegionRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+        }    
 }

@@ -8,7 +8,7 @@ namespace Core.Interfaces;
 
 public interface IPerson : IGenericRepo<Person>
 {
-    Task ToListAsync();
+  
 }
 
    
