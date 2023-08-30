@@ -21,7 +21,6 @@ namespace Infrastructure.Repository
             .Include(p => p.Employees)
             .ToListAsync();
     }
-
     public override async Task<Person> GetByIdAsync(int id)
     {
         return await _context.People

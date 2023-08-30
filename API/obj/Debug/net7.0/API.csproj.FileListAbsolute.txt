@@ -94,3 +94,5 @@ C:\Users\APT01-60\Documents\mb\autoRepair\API\obj\Debug\net7.0\scopedcss\bundle\
 C:\Users\APT01-60\Documents\mb\autoRepair\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Users\APT01-60\Documents\mb\autoRepair\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\APT01-60\Documents\mb\autoRepair\API\obj\Debug\net7.0\ref\API.dll
+D:\Documents\Campus Programmer\autoRepair\API\bin\Debug\net7.0\AutoMapper.dll
+D:\Documents\Campus Programmer\autoRepair\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

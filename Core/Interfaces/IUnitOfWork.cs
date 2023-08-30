@@ -8,6 +8,7 @@ namespace Core.Interfaces;
 public interface IUnitOfWork
 {
     IPerson People { get; }
+    ICustomer Customers { get; }
     // ITypePerson TypePersons{ get; }
     // IRegion Regions {get; }
 

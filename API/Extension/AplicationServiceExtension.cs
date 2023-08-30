@@ -1,6 +1,7 @@
 
 
 using Core.Interfaces;
+using Infrastructure.Repository;
 using Infrastructure.UnitOfWork;
 
 namespace API.Extension;
@@ -21,7 +22,7 @@ public static class AplicationServiceExtension
     public static void AddAplicacionServices(this IServiceCollection services)
         {
             //services.AddScoped<IPais, PaisRepository>();
-            //services.AddScoped<IRegion, RegionRepository>();
+            //services.AddScoped<ICustomer, CustomerRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
         }    
 }

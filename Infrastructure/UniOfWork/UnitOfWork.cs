@@ -10,12 +10,12 @@ namespace Infrastructure.UnitOfWork;
 public class UnitOfWork : IUnitOfWork, IDisposable
 {
     private readonly AutoRepairContext context;
-    private PersonRepository _people;
     public UnitOfWork(AutoRepairContext _context)
     {
         context = _context;
     }
-
+    private PersonRepository _people;
+    
     public IPerson People
     {
         get{
@@ -23,6 +23,18 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                 _people = new PersonRepository(context);
             }
             return _people;
+        }
+    }
+
+    private CustomerRepository _customers;
+    
+    public ICustomer Customers
+    {
+        get{
+            if(_customers == null){
+                _customers = new CustomerRepository(context);
+            }
+            return _customers;
         }
     }
 

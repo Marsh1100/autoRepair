@@ -2,6 +2,11 @@
     "DefaultConnection":"server=localhost;user=root;password= ;database =AutoRepairDBmb"
   }*/ //Casita
 
+/*"ConnectionStrings": {
+    "DefaultConnection":"server=localhost;user=root;password=123456 ;database =AutoRepairDBmb"
+  }
+*/ //campus
+
 using System.Reflection;
 using API.Extension;
 using Infrastructure.Data;
@@ -36,7 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("CorsPolicy");
 
-//Se agregan las siguientes lineas de code
+//Se agregan las siguientes lineas de code (migracion)
 using(var scope= app.Services.CreateScope()){
     var services = scope.ServiceProvider;
     var loggerFactory = services.GetRequiredService<ILoggerFactory>();
