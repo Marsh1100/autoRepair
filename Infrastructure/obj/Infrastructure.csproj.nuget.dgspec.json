@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
+    "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\obj\\",
+        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -85,8 +85,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj": {
-                "projectPath": "D:\\Documents\\Campus Programmer\\autoRepair\\Core\\Core.csproj"
+              "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\autoRepair\\Core\\Core.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

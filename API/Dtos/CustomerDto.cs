@@ -3,5 +3,5 @@ namespace API.Dtos;
 
 public class CustomerDto
 {
-    public int Email { get; set; }
+    public string Email { get; set; }
 }

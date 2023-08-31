@@ -65,5 +65,48 @@ public class PersonController : BaseApiController
     }
 
 
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<Person>> Post(PersonDto personDto){
+        var person = this.mapper.Map<Person>(personDto);
+        this.unitOfWork.People.Add(person);
+        await unitOfWork.SaveAsync();
+        if (person == null)
+        {
+            return BadRequest();
+        }
+        personDto.Id = person.Id;
+        return CreatedAtAction(nameof(Post),new {id= personDto.Id}, personDto);
+    }
+
+
+    [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<PersonDto>> Put(int id, [FromBody]PersonDto personDto){
+        if(personDto == null)
+            return NotFound();
+        var person = this.mapper.Map<Person>(personDto);
+        unitOfWork.People.Update(person);
+        await unitOfWork.SaveAsync();
+        return personDto;
+        
+    }
+
+    [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Delete(int id){
+        var person = await unitOfWork.People.GetByIdAsync(id);
+        if(person == null){
+            return NotFound();
+        }
+        unitOfWork.People.Remove(person);
+        await unitOfWork.SaveAsync();
+        return NoContent();
+    }
+
     
 }
